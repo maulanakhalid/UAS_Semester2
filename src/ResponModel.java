@@ -1,4 +1,3 @@
-package model;
 
 public class ResponModel {
 
@@ -7,7 +6,7 @@ public class ResponModel {
     String comment;
 
     public String getMsg() {
-        this.msg = msg;
+        return msg = msg;
     }
 
     public void setMsg (String msg) {
@@ -25,9 +24,7 @@ public class ResponModel {
         return comment;
     }
 
-    public ResponModel (String msg, String status, String comment) {
-        this.msg = msg;
-        this.status = status;
-        this.comment = comment;
-    }
+
+
+
 }

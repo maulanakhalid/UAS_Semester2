@@ -5,7 +5,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 
-public class ConnectURL {
+public class ConnectURI {
     private final String user_AGENT = "Mozilla/5.0";
     public static URL buildURL (String urlQuery){
         URL url=null;
